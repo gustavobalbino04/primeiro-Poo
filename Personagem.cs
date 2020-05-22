@@ -11,7 +11,8 @@ namespace PrimeiroPoo
         {
             return "o personagem atacou!";
         }
-        public float CalcularDano(float dano){
+        
+            public float CalcularDano(float dano){
             return vida - dano;
         }
 
